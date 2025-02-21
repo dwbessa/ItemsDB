@@ -34,8 +34,8 @@ Before running this application, make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:dwbessa/jsp_crud.git
-   cd jsp_crud
+   git@github.com:dwbessa/JSP-CRUD.git
+   cd JSP-CRUD
    ```
 
 2. Build the project:
