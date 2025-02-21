@@ -1,4 +1,3 @@
-// CrudApplication.java
 package com.dwbessa.crud;
 
 import org.springframework.boot.SpringApplication;
