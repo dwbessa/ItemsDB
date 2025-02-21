@@ -34,7 +34,7 @@ Before running this application, make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone git@github.com:dwbessa/jsp_crud.git
    cd jsp_crud
    ```
 
@@ -58,25 +58,6 @@ Before running this application, make sure you have the following installed:
    - Username: `sa`
    - Password: (leave empty)
 
-## Project Structure
-
-```
-src/main/java/com/dwbessa/crud/
-├── config/
-│   └── WebConfig.java
-├── controller/
-│   ├── HomeController.java
-│   ├── ItemController.java
-│   └── TestController.java
-├── model/
-│   └── Item.java
-├── repository/
-│   └── ItemRepository.java
-├── service/
-│   └── ItemService.java
-└── CrudApplication.java
-```
-
 ## Application Properties
 
 Key application properties (in `src/main/resources/application.properties`):
@@ -97,21 +78,3 @@ If you find any issues or have suggestions, please create an issue in the reposi
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-```
-
-This README provides:
-1. An overview of the project
-2. Technologies used
-3. Features
-4. Prerequisites
-5. Detailed instructions on how to run the application
-6. Project structure
-7. Important configuration details
-8. Sections for contributing and reporting issues
-
-You can customize this README further based on your specific needs or add additional sections like:
-- Deployment instructions
-- Testing information
-- Screenshots
-- API documentation
-- Troubleshooting guide
